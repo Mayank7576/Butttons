@@ -1,0 +1,131 @@
+body {
+    background-color : #00001a ;
+    margin: 0px ;
+    padding: 0px ;
+}
+
+#heading {
+    position: absolute ;
+    background: linear-gradient(black,blue);
+    bottom: 400px ;
+    margin-left: 43% ;
+    font-family: cursive ; 
+    font-size: 50px ;
+    color: black ;
+}
+
+.buttons {
+    display: flex ;
+    border: 10px solid black ;
+    margin-top: 20% ;
+    flex-direction: row ;
+    align-items: center ;
+    justify-content: space-evenly ;
+    background-color : #000066 ;
+}
+
+#button1 {
+    border: 1px solid #000066 ;
+    background-color: #000066 ;
+    color: white ;
+}
+
+#button_1 {
+    font: cursive ;
+    font-size: 25px ;
+    border: 5px solid #660000 ;
+    border-radius: 50% ;
+    padding: 20px ;
+}
+
+#button1 :hover {
+    font-family: 'Courier New', Courier, monospace ;
+    margin-bottom: 50% ;
+    transition: 1s ;
+    box-shadow: 0 5px 50px 30px #ffb3b3 ;
+}
+
+#button2 {
+    border: 1px solid #000066 ;
+    background-color: #000066 ;
+    color: white ;
+}
+
+#button_2 {
+    font: cursive ;
+    font-size: 25px ;
+    border: 5px solid #ffff00 ;
+    border-radius: 50% ;
+    padding: 20px ;
+}
+
+#button2 :hover {
+    font-family: 'Times New Roman', Times, serif ;
+    margin-left: 25% ;
+    padding: 30px ;
+    transition: 1s ;
+    box-shadow: 0 5px 20px 30px #ffffb3 ;
+}
+
+#button3 {
+    border: 1px solid #000066 ;
+    background-color: #000066 ;
+    color: white ;
+}
+
+#button_3 {
+    font: cursive ;
+    font-size: 25px ;
+    border: 5px solid #996300 ;
+    border-radius: 50% ;
+    padding: 20px ;
+}
+
+#button3 :hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    transform: rotate(360deg);
+    transition: 1s ;
+    box-shadow: 0 5px 20px 30px #ffe4b3 ;
+}
+
+#button4 {
+    border: 1px solid #000066 ;
+    background-color: #000066 ;
+    color: white ;
+}
+
+#button_4 {
+    font: cursive ;
+    font-size: 25px ;
+    border: 5px solid #0000e6 ;
+    border-radius: 50% ;
+    padding: 20px ;
+}
+
+#button4 :hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    transform: skewX(30deg);
+    transition: 1s ;
+    box-shadow: 0 5px 20px 30px #b3b3ff ;
+}
+
+#button5 {
+    border: 1px solid #000066 ;
+    background-color: #000066 ;
+    color: white ;
+}
+
+#button_5 {
+    font: cursive ;
+    font-size: 25px ;
+    border: 5px solid #7a1f1f ;
+    border-radius: 50% ;
+    padding: 20px ;
+}
+
+#button5 :hover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    transform: translateX(100px);
+    transition: 1s ;
+    box-shadow: 0 5px 20px 30px  #efc2c2 ;
+}
